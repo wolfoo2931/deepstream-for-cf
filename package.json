@@ -1,0 +1,31 @@
+{
+  "name": "deepstream-for-cf-wrapper",
+  "version": "1.0.0",
+  "description": "A wrapper application to deploy deepstream.io to Cloud Foundry using the default node.js buildpack",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "start": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfoo2931/deepstream-for-cf.git"
+  },
+  "keywords": [
+    "deepstream.io",
+    "Cloud",
+    "Foundry",
+    "Heroku"
+  ],
+  "dependencies": {
+    "deepstream.io": "1.1.1"
+  },
+  "author": "Oliver Wolf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolfoo2931/deepstream-for-cf/issues"
+  },
+  "homepage": "https://github.com/wolfoo2931/deepstream-for-cf#readme"
+}
